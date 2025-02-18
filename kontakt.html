@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+    <title>DIRo-kontakt</title>
+</head>
+<body>
+    <!--Navigacija-->
+    <div class="navigacija">
+        <div class="okvir flex">
+            <a href="index.html"><img src="LOGO2.svg" alt="Logo nije učitan"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="index.html#onama">O nama</a></li>
+                    <li><a href="index.html#usluge">Usluge</a></li>
+                    <li><a href="index.html#Istra">Istra i DIRo</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="utisci.html">Vaši utisci</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <section class="showcase mreža">
+        <div class="mreža">
+            <div class="tekst">
+               <h1>Kontaktirajte nas</h1>
+               <p1>Ovdje nam se možete obratiti sa pitanjima ili poteškoćama. U obrazcu sa desne strane napišite vaše ime i prezime, kratki opis pitanja ili problema i ostavite vašu e-mail adresu kako bismo vam pružili povratnu informaciju.</p1>
+            </div>
+            <div class="showcase-form card">
+                <h1>Kontaktirajte nas</h1>
+                <form name="contact" method="POST" data-netlefy="true" netlefy-honeypot="bot-field">
+                    <div class="form">
+                        <input type="text" name="name" placeholder="Ime" required>
+                    </div>
+                    <div class="form">
+                        <input type="text" name="name" placeholder="Prezime" required>
+                    </div>
+                    <div class="form">
+                        <input type="text" name="name" placeholder="Upit" required>
+                    </div>
+                    <div class="form">
+                        <input type="text" name="name" placeholder="E-mail" required>
+                    </div>
+                    <input type="submit" value="Pošalji" class="btn btn-primary"> 
+                </form>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section class="stats">
+        <div class="container">
+            <h1 class="stats-heading text-center my-1">
+                Sažeti prikaz usluga:
+            </h1>
+            <div class="mreža grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-person-swimming fa-3x"></i>
+                    <h3>Čišćenje i održavanje bazena</h3>
+                </div>
+                <div>
+                    <i class="fas fa-house fa-3x"></i>
+                    <h3>Čišćenje kuća za odmor</h3>
+                </div>
+                <div>
+                    <i class="fas fa-seedling fa-3x"></i>
+                    <h3>Održavanje okućnica</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="karta-text">
+        <h1>Posjetite nas:</h1>
+    </div>
+    <section class="karta-okvir">
+        <div class="karta">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d385.22726752328816!2d13.944236486037381!3d45.03415614881529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDAyJzAzLjAiTiAxM8KwNTYnMzkuMyJF!5e0!3m2!1shr!2shr!4v1739876268368!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark py-5">
+        <div class="container mreža grid-3 dnav">
+            <div>
+                <a href="index.html"><img src="LOGO2.svg" alt="Logo nije učitan"></a>
+             <p>Stranica je fiktivna i služi kao završni ispit iz predmeta multimedija</p>
+             <p>Izrađeno: veljača, 2025. godine</p>
+            </div>
+            <div class="lijevo">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Početna</a></li>
+                        <li><a href="index.html#onama">O nama</a></li>
+                        <li><a href="index.html#usluge">Usluge</a></li>
+                        <li><a href="index.html#Istra">Istra i DIRo</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="utisci.html">Vaši utisci</a></li>
+                        <li><a href="literatura.txt" download>Preuzmite literaturu</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="social">
+                <i class="fab fa-whatsapp fa-2x"></i>
+                <i class="fab fa-viber fa-2x"></i>
+                <i class="fab fa-instagram fa-2x"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
